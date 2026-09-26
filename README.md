@@ -1,16 +1,45 @@
-Process Hollowing Detector
+# Process Hollowing Detector
 
-A Windows-focused forensics and security research tool for detecting potential process hollowing and suspicious process-memory anomalies.
+A Windows-focused forensic and security research tool designed to inspect running processes and identify potentially suspicious process hollowing and memory anomalies.
+
+About
+
+Process Hollowing Detector is built for Windows forensics, malware analysis, process inspection, and security research.
+
+The tool provides multiple scanning modes to analyze Windows processes and identify unusual process images, executable memory regions, and module mappings.
 
 Features
 
-* 🔍 Process Scan — Detects suspicious process-image and memory anomalies.
-* 🧩 Modules Scan — Inspects executable modules and memory mappings.
-* 📄 Automatic Report — Saves results to Downloads\report.txt.
+* 🔍 Process Scan
+    * Scans running Windows processes
+    * Looks for potential process-image and memory anomalies
+    * Identifies indicators associated with possible process hollowing
+* 🧩 Modules Scan
+    * Inspects executable modules and memory mappings
+    * Looks for suspicious executable regions
+    * Helps identify unusual module or memory behavior
 
-Use Cases
+Purpose
 
-Windows Forensics • Digital Forensics • Malware Analysis • Reverse Engineering • Incident Response • Security Research
+This project is intended for:
+
+* Windows Forensics
+* Digital Forensics
+* Malware Analysis
+* Reverse Engineering
+* Process & Memory Analysis
+* Security Research
+* Incident Response
+
+Platform
+
+Windows
+
+Status
+
+🚧 Active Development
+
+This project is continuously being improved with additional detection methods and forensic capabilities.
 
 Build Requirements
 
@@ -19,15 +48,11 @@ Build Requirements
 * Git
 * Administrator privileges may be required for certain processes
 
-npm install
+Disclaimer
 
-Build using the project’s configured npm build command.
+This tool is intended for legitimate security research, forensic investigation, malware analysis, and authorized testing only.
 
-Platform
-
-Windows 10 / Windows 11
-
-For authorized forensic analysis, security research, and testing only.
+Use it only on systems and software that you own or have explicit permission to analyze.
 
 Author
 
