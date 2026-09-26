@@ -1,24 +1,34 @@
-# Process Hollowing Detector
+Process Hollowing Detector
 
-A simple, portable Windows application with a clean dark console-style UI that scans currently running Windows processes for indicators associated with possible process hollowing.
+A Windows-focused forensics and security research tool for detecting potential process hollowing and suspicious process-memory anomalies.
 
-## Build Requirements
+Features
 
-1. Node.js (v18+)
-2. .NET Framework (csc.exe should be available at `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe`)
+* 🔍 Process Scan — Detects suspicious process-image and memory anomalies.
+* 🧩 Modules Scan — Inspects executable modules and memory mappings.
+* 📄 Automatic Report — Saves results to Downloads\report.txt.
 
-## Building from source
+Use Cases
 
-1. Run `npm install` to install dependencies.
-2. Run `npm run build` to compile the native Windows scanner and build the portable Node.js executable.
-3. The portable `.exe` will be located in the `dist/` directory.
+Windows Forensics • Digital Forensics • Malware Analysis • Reverse Engineering • Incident Response • Security Research
 
-## Features
+Build Requirements
 
-- **Process Scan**: Scans all active processes for executable memory anomalies (unbacked executable memory or modified image sections).
-- **Modules Scan**: Deeper scan of module memory mappings.
-- **Reporting**: Automatically outputs results to `Downloads\report.txt`.
+* Windows 10 / 11
+* Node.js & npm
+* Git
+* Administrator privileges may be required for certain processes
 
-## Disclaimer
+npm install
 
-This is a defensive forensic and security research tool. It does not perform any offensive actions.
+Build using the project’s configured npm build command.
+
+Platform
+
+Windows 10 / Windows 11
+
+For authorized forensic analysis, security research, and testing only.
+
+Author
+
+By Kedar
